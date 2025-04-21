@@ -3,9 +3,9 @@ terraform {
         bucket = "newtestterraformday5"
         region = "eu-north-1"
         key = "terraform.tfstate"
-        aws_dynamodb_table = "terraform-state-lock-dynamo"
+        dynamodb_table = "terraform-state-lock-dynamo"
         encrypt = true
       
     }
-  
+
 }
